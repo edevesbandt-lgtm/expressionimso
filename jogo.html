@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz do Expressionismo | ArteViva</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="topo">
+        <a class="logo" href="index.html">ARTE<span>VIVA</span></a>
+        <nav><a href="index.html">Início</a><a href="ernst.html">Ernst</a><a href="egon.html">Egon</a><a href="anita.html">Anita</a><a href="ibere.html">Iberê</a><a class="ativo" href="jogo.html">Jogo</a></nav>
+    </header>
+    <main class="quiz-pagina">
+        <a class="voltar" href="index.html">← Voltar ao início</a>
+        <section class="quiz-card">
+            <p class="etiqueta">DESAFIO ARTEVIVA</p>
+            <h1>Quiz do <span>Expressionismo</span></h1>
+            <p>Responda às perguntas e teste o que aprendeu sobre o movimento e os quatro artistas.</p>
+            <div class="barra-fundo"><div id="barra" class="barra"></div></div>
+            <p id="progresso" class="progresso">Pergunta 1 de 6</p>
+            <h2 id="pergunta">Carregando pergunta...</h2>
+            <div id="opcoes" class="opcoes"></div>
+            <p id="feedback" class="feedback" aria-live="polite"></p>
+            <button id="proxima" class="botao" type="button" disabled>Próxima pergunta →</button>
+            <div id="resultado" class="resultado" hidden></div>
+        </section>
+    </main>
+    <footer><a class="logo" href="index.html">ARTE<span>VIVA</span></a><p>Aprender arte também pode ser divertido.</p></footer>
+</body>
+</html>
