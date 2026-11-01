@@ -224,7 +224,8 @@ footer p { color: #c9c1ba; font-size: .86rem; }
 }
 
 .video-section h2 {
-    font-family: 'DM Sans', Arial, sans-serif;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(1.8rem, 3vw, 2.7rem);
     margin-bottom: 15px;
 }
 
